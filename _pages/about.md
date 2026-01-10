@@ -25,7 +25,7 @@ redirect_from:
 - **CacheLab实验报告**  
   人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 课程大作业 [Cachelab-2025Fall](https://github.com/RUCICS/Cachelab-2025Fall) 的实验报告。
 
-相关报告可在 **Publications** 页面中查看并下载。
+相关报告可在 [CacheLab 报告](https://jackxing875.github.io/publication/cachelab_report) 查看并下载。
 
 ---
 
