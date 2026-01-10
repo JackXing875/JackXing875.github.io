@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "简历"
+title: "我的简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -37,17 +37,19 @@ redirect_from:
   * C++
   * Python
   * Java
+
 * 工具与环境：
   * Linux
   * Git / GitHub
   * VS Code
+
 * 相关方向：
   * 机器学习 / 深度学习
   * SLAM
 
 ---
 
-出版物（课程报告）
+文章
 ======
 <ul>
 {% for post in site.publications reversed %}
