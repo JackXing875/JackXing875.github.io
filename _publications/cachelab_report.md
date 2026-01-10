@@ -9,10 +9,6 @@ venue: 'Journal 1'
 paperurl: 'https://academicpages.github.io/files/cachelab_report.pdf'
 ---
 
-# CacheLab 报告
-
-作者：Maliketh
-
 | csim 分数 | case1 speedup | case2 speedup | case3 speedup | weighted speedup |
 | --------- | ------------- | ------------- | ------------- | ----------------- |
 | 100.00         | 8.24             | 9.28             | 4.85            | 7.20               |
