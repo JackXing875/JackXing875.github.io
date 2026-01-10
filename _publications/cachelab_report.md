@@ -6,7 +6,7 @@ permalink: /publication/cachelab_report
 excerpt: '中国人民大学计算机系统基础课程 CacheLab 实验报告'
 date: 2026-01-10
 venue: 'GitHub'
-paperurl: 'https://academicpages.github.io/files/cachelab_report.pdf'
+paperurl: 'https://jackxing875.github.io/files/cachelab_report.pdf'
 ---
 
 | csim 分数 | case1 speedup | case2 speedup | case3 speedup | weighted speedup |
