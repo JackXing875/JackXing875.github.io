@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育背景
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **中国人民大学**  
+  高瓴人工智能学院
+  专业方向：人工智能 
+  时间：2024 – 至今
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+---
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+项目与课程报告
+======
+* **全连接神经网络运行机制**  
+  * 课程：人工智能导论  
+  * 内容：前向传播、反向传播、损失函数与参数更新  
+  * 实现：基于 NumPy 的多层感知机
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **CacheLab 实验报告**  
+  * 课程：操作系统  
+  * 内容：Cache 映射方式、命中率分析与示例推导
 
-Publications
+---
+
+技能
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* 编程语言：
+  * C++
+  * Python
+  * Java
+* 工具与环境：
+  * Linux
+  * Git / GitHub
+  * VS Code
+* 相关方向：
+  * 机器学习 / 深度学习
+  * SLAM
+
+---
+
+出版物（课程报告）
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
