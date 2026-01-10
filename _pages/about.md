@@ -24,7 +24,7 @@ redirect_from:
 
   <img src="https://avatars.githubusercontent.com/u/45090349?v=4" width="88" style="border-radius: 50%;" />
 
-  <p>嗨，我是Maliketh。热爱文学、电影、旅行与电子游戏。</p>
+  <p>嗨，我是 Maliketh 。热爱文学、电影、旅行与电子游戏。</p>
   <p>想要从零开始实现属于自己的操作系统，内核、CPU 架构、编译器与网络栈......</p>
 
   <div>&nbsp;</div>
@@ -37,7 +37,7 @@ redirect_from:
 
 ### 教育背景
 
-<img src="../images/img.png" width="150" align="right" style="margin-left: 20px;" />
+<img src="../images/img.png" width="250" height="75" align="right" style="margin-left: 20px;" />
 
 - **[中国人民大学](https://www.ruc.edu.cn/)** &emsp; 📌 2024.09 —— 2028.06
   - 所在学院：高瓴人工智能学院
