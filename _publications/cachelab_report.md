@@ -3,9 +3,9 @@ title: "CacheLab 报告"
 collection: publications
 category: manuscripts
 permalink: /publication/cachelab_report
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: '中国人民大学计算机系统基础课程 CacheLab 实验报告'
 date: 2026-01-10
-venue: 'Journal 1'
+venue: 'GitHub'
 paperurl: 'https://academicpages.github.io/files/cachelab_report.pdf'
 ---
 
