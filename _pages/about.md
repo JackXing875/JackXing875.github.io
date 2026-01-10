@@ -7,6 +7,9 @@ redirect_from:
   - /about.html
 ---
 
+
+> "Exploiting is an art, but understanding the principles behind it is science." —— Anon
+
 <div align="center">
 
   <picture>
