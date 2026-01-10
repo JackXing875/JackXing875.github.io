@@ -90,3 +90,7 @@ redirect_from:
 所有内容均以 *Markdown* 形式维护，持续更新。
 
 如果你对我的学习内容或报告感兴趣，欢迎浏览相关页面。
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&&section=footer&text=THE%20END!&fontSize=90&fontAlign=50&fontAlignY=70&desc=Long%20May%20the%20Sun%20Shine!&descAlign=50&descSize=30&descAlignY=40&animation=twinkling">
+</p>
