@@ -40,7 +40,7 @@ redirect_from:
   - 所在学院：高瓴人工智能学院
   - 研究方向：SLAM 算法
 
-<br clear="all"> <div>&nbsp;</div>
+<br clear="all"> 
 
 ### 技术栈
 <div align="center">
