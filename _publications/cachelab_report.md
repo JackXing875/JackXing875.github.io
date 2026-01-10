@@ -1,10 +1,12 @@
 ---
 title: "CacheLab 报告"
 collection: publications
-permalink: /publication/cachelab_report
 category: manuscripts
+permalink: /publication/cachelab_report
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2026-01-10
-
+venue: 'Journal 1'
+paperurl: 'https://academicpages.github.io/files/cachelab_report.pdf'
 ---
 
 # CacheLab 报告
