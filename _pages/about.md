@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "邢添珵的个人主页"
+title: "Maliketh的个人主页"
 author_profile: true
 redirect_from:
   - /about/
@@ -23,7 +23,7 @@ redirect_from:
 我已完成并整理的部分内容包括：
 
 - **CacheLab实验报告**  
-  人民大学`2025`年秋季学期课程`Introduction to Computer System`课程大作业[Cachelab-2025Fall](https://github.com/RUCICS/Cachelab-2025Fall)的实验报告。
+  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 课程大作业[Cachelab-2025Fall](https://github.com/RUCICS/Cachelab-2025Fall)的实验报告。
 
 相关报告可在 **Publications** 页面中查看并下载。
 
