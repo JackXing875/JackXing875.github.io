@@ -2,7 +2,7 @@
 title: "人工智能引论学习笔记"
 collection: publications
 category: manuscripts
-permalink: /publication/bomblab_report
+permalink: /publication/AI_intro
 excerpt: '中国人民大学高瓴人工智能学院2025年秋季课程《人工智能引论》课程笔记'
 date: 2026-01-10
 venue: 'GitHub'
