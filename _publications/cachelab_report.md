@@ -2,6 +2,7 @@
 title: "CacheLab 报告"
 collection: publications
 permalink: /publication/cachelab_report
+category: manuscripts
 date: 2026-01-10
 
 ---
