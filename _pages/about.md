@@ -77,13 +77,14 @@ redirect_from:
 
 我已完成并整理的部分内容包括：
 
-- **CacheLab 实验报告** 人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 课程大作业 [Cachelab-2025Fall](https://github.com/RUCICS/Cachelab-2025Fall) 的实验报告。可在 [CacheLab 报告](https://jackxing875.github.io/publication/cachelab_report) 查看并下载。
+- **CacheLab 实验报告** 人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 课程大作业 [Cachelab-2025Fall](https://github.com/RUCICS/Cachelab-2025Fall) 的实验报告。可在 [CacheLab 报告](https://jackxing875.github.io/publication/cachelab_report) 查看。
 
 - **BombLab 实验报告**
   人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 课程大作业 [Bomblab-2025Fall](https://github.com/RUCICS/Bomblab-2025Fall) 的实验报告。
+  可以在 [BombLab 报告](https://jackxing875.github.io/publication/bomblab_report) 查看。
 
 - **《人工智能引论》课程笔记**
-  人民大学 *2025* 年秋季课程 *人工智能引论* 课程笔记。包含完整的从 *0* 入门人工智能的学习资料，由本人亲手整理。
+  人民大学 *2025* 年秋季课程 *人工智能引论* 课程笔记。包含完整的从 *0* 入门人工智能的学习资料，由本人亲手整理。可以在 [《人工智能引论》 课程笔记](https://jackxing875.github.io/publication/AI_intro) 查看并下载 *PDF* 版资料。
 
 ---
 
