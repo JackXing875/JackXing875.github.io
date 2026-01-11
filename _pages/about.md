@@ -25,7 +25,7 @@ redirect_from:
 
   <img src="https://avatars.githubusercontent.com/u/45090349?v=4" width="88" style="border-radius: 50%;" />
 
-  <p>嗨，我是 Maliketh 。热爱文学、电影、旅行与电子游戏。</p>
+  <p>Hi，我是 Maliketh 。热爱文学、电影、旅行与电子游戏。</p>
   <p>想要从零开始实现属于自己的操作系统，内核、CPU 架构、编译器与网络栈......</p>
 
   <div>&nbsp;</div>
