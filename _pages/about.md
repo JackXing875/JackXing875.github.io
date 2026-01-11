@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-> "Exploiting is an art, but understanding the principles behind it is science." —— Anon
+> "Without requirements or design, programming is the art of adding bugs to an empty text file." -- Louis Srygley
 
 <div align="center">
 
