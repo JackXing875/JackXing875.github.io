@@ -97,8 +97,7 @@ redirect_from:
 
 ### 关于本站
 
-本网站基于 *GitHub Pages* 与 *Academic Pages* 模板构建，  
-所有内容均以 *Markdown* 形式维护，持续更新。
+本网站基于 *GitHub Pages* 与 *Academic Pages* 模板构建，所有内容均以 *Markdown* 形式维护，持续更新。
 
 如果你对我的学习内容或报告感兴趣，欢迎浏览相关页面。
 
