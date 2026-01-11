@@ -65,7 +65,7 @@ Autograder 截图：
 2. case2
 3. case3
 
-> [!NOTE]
+> NOTE
 > 每个 ```case``` 上的多次调参以及较小的优化略过不表，只保留几次突破较大的优化。
 
 ### case1
