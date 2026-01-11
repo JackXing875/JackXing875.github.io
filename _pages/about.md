@@ -82,6 +82,8 @@ redirect_from:
 
 ### 课程报告与学习成果
 
+<br>
+
 我已完成并整理的部分内容包括：
 
 - **CacheLab 实验报告** 人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 课程大作业 [Cachelab-2025Fall](https://github.com/RUCICS/Cachelab-2025Fall) 的实验报告。可在 [CacheLab 报告](https://jackxing875.github.io/publication/cachelab_report) 查看。
@@ -96,6 +98,7 @@ redirect_from:
 ---
 
 ### 关于本站
+<br>
 
 本网站基于 *GitHub Pages* 与 *Academic Pages* 模板构建，所有内容均以 *Markdown* 形式维护，持续更新。
 
