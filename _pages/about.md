@@ -10,6 +10,7 @@ redirect_from:
 
 > "programming is the art of adding bugs to an empty text file."
 
+<br>
 <div align="center">
 
   <picture>
@@ -37,15 +38,20 @@ redirect_from:
 
 ### 教育背景
 
+<br>
+
 <img src="../images/img.png" width="250" height="75" align="right" style="margin-left: 20px;" />
 
 - **[中国人民大学](https://www.ruc.edu.cn/)** &emsp; 📌 2024.09 —— 2028.06
   - 所在学院：高瓴人工智能学院
   - 研究方向：SLAM 算法
 
-<br clear="all"> 
+---
 
 ### 技术栈
+
+<br>
+
 <div align="center">
 
 <table>
@@ -71,6 +77,8 @@ redirect_from:
 </div>
 
 <div>&nbsp;</div>
+
+---
 
 ### 课程报告与学习成果
 
