@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-> "Without requirements or design, programming is the art of adding bugs to an empty text file." -- Louis Srygley
+> "programming is the art of adding bugs to an empty text file."
 
 <div align="center">
 
