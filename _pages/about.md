@@ -47,7 +47,6 @@ redirect_from:
 
 ### 技术栈
 <div align="center">
-<p><b>我擅长以下技术与工具：</b></p>
 
 <table>
   <tr>
