@@ -52,7 +52,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "JackXing875"
-  kaggle           : # Username  
+  kaggle           : "tianchengxing"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -64,7 +64,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : Loskid
+  instagram        : "schrieffer5"
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
@@ -79,8 +79,8 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : JackXing-i3q
-  zhihu            : 86-31-95-42
+  youtube          : "JackXing-i3q"
+  zhihu            : "86-31-95-42"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
