@@ -91,11 +91,12 @@ redirect_from:
 - **BombLab 实验报告**
   人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Bomblab](https://github.com/RUCICS/2025-ics1-1-bomblab-2025-Bomblab-2025) 的实验报告。可以在 [BombLab 报告](https://jackxing875.github.io/publication/bomblab_report) 查看。
 
+- **DataLab 实验报告**
+  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Datalab](https://github.com/RUCICS/Datalab-2025Fall) 的实验报告。可以在 [BombLab 报告](https://jackxing875.github.io/publication/datalab_report) 查看。
+  
 - **《人工智能引论》课程笔记**
   人民大学 *2025* 年秋季学期课程 *人工智能引论* 笔记。包含完整的从 *0* 入门人工智能的学习资料，由本人亲手整理。可以在 [《人工智能引论》 课程笔记](https://jackxing875.github.io/publication/AI_intro) 查看并下载 *PDF* 版资料。
 
-- **DataLab 实验报告**
-  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Datalab](https://github.com/RUCICS/Datalab-2025Fall) 的实验报告。可以在 [BombLab 报告](https://jackxing875.github.io/publication/datalab_report) 查看。
 
 ---
 
