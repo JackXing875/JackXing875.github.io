@@ -89,7 +89,7 @@ redirect_from:
 - **CacheLab 实验报告** 人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Cachelab-2025Fall](https://github.com/RUCICS/Cachelab-2025Fall) 的实验报告。可在 [CacheLab 报告](https://jackxing875.github.io/publication/cachelab_report) 查看。
 
 - **BombLab 实验报告**
-  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Bomblab-2025Fall](https://github.com/RUCICS/Bomblab-2025Fall) 的实验报告。
+  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Bomblab-2025Fall](https://github.com/RUCICS/2025-ics1-1-bomblab-2025-Bomblab-2025) 的实验报告。
   可以在 [BombLab 报告](https://jackxing875.github.io/publication/bomblab_report) 查看。
 
 - **《人工智能引论》课程笔记**
