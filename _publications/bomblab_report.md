@@ -9,9 +9,10 @@ venue: 'GitHub'
 paperurl: 'https://jackxing875.github.io/files/bomblab_report.pdf'
 ---
 
-| 总分 | phase_1 | phase_2 | phase_3 | phase_4 | phase_5 | phase_6 | secret_phase | pupil|tr1vial |
-| --------- | ------------- | ------------- | ------------- | ----------------- |-----------|-----------|-----------|--|--|
-| 9        | 1            | 1            | 1            | 1 |1  |1  |1  | 1 | 1|
+| 总分 | phase_1 | phase_2 | phase_3 | phase_4 | phase_5 | phase_6 | secret_phase | pupil|tr1vial | rainb0w | q_math |hothothot  |
+| --------- | ------------- | ------------- | ------------- | ----------------- |-----------|-----------|-----------|--|--|--|--|--|
+| 12        | 1            | 1            | 1            | 1 |1  |1  |1  | 1 | 1| 1| 1|1|1 | 1| 
+
 
 
 scoreboard 截图：
