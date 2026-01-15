@@ -444,9 +444,6 @@ int secret_phase()
 <!-- 200 字以内，可以不写 -->
 
 ## 参考的重要资料
-- [CSAPP | Lab2-Bomb Lab 深入解析](https://zhuanlan.zhihu.com/p/472178808)
-
-> `CSAPP` 原版 `BombLab` 解析，帮助我了解了完成这个 `Lab` 的一些基础知识
 
 - [汇编语言入门教程](https://www.ruanyifeng.com/blog/2018/01/assembly-language-primer.html)
 
