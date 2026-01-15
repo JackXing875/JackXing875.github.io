@@ -7,8 +7,8 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+locale                   : "zh-CN"
+site_theme               : "gemini3pro" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Maliketh's Blog"
 title_separator          : "-"
 name                     : &name "Maliketh"
