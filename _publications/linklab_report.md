@@ -2,7 +2,7 @@
 title: "LinkLab 报告"
 collection: publications
 category: manuscripts
-permalink: /publication/bomblab_report
+permalink: /publication/linklab_report
 excerpt: '中国人民大学计算机系统基础课程 LinkLab 实验报告'
 date: 2026-01-20
 venue: 'GitHub'
