@@ -86,6 +86,9 @@ redirect_from:
 
 我已完成并整理的部分内容包括：
 
+- **LinkLab 实验报告**
+  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Linklab](https://github.com/RUCICS/LinkLab-2025-Assignment) 的实验报告。可以在 [LinkLab 报告](https://jackxing875.github.io/publication/linklab_report) 查看。
+
 - **AttackLab 实验报告**
   人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Attacklab](https://github.com/RUCICS/2025-ics1-3-attack-lab-baby-attack-homework) 的实验报告。可以在 [AttackLab 报告](https://jackxing875.github.io/publication/attacklab_report) 查看。
 
