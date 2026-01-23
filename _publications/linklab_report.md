@@ -9,8 +9,6 @@ venue: 'GitHub'
 paperurl: 'https://jackxing875.github.io/files/linklab_report.pdf'
 ---
 
-# LinkLab 报告
-
 Autograder 截图：
 
 ![](../files/linklab/grade.png)
