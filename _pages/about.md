@@ -11,11 +11,11 @@ redirect_from:
 > "programming is the art of adding bugs to an empty text file."
 
 <div align="center">
-  <img 
-    src="https://github.com/user-attachments/assets/754f7f48-57b4-4b8f-9054-b21ef7803698"
-    width="500"
-    alt="A professional animation coder gif"
-  />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" height="225px" />
+      <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" alt="Coding GIF" />
+  </picture>
 </div>
 
 <div align="center">
