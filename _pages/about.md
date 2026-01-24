@@ -10,14 +10,15 @@ redirect_from:
 
 > "programming is the art of adding bugs to an empty text file."
 
-<br>
 <div align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/754f7f48-57b4-4b8f-9054-b21ef7803698"
+    width="500"
+    alt="A professional animation coder gif"
+  />
+</div>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" height="225px" />
-    <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" alt="Coding GIF" />
-  </picture>
+<div align="center">
   
   <div>&nbsp;</div>
 
@@ -25,8 +26,9 @@ redirect_from:
 
   <img src="https://avatars.githubusercontent.com/u/45090349?v=4" width="88" style="border-radius: 50%;" />
 
-  <p>Hi，我是 Maliketh 。热爱文学、电影、旅行与电子游戏。</p>
+  <p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand Emoji" width="25px"/> Hi，我是 Maliketh 。热爱文学、电影、旅行与电子游戏。</p>
   <p>想要从零开始实现属于自己的操作系统，内核、CPU 架构、编译器与网络栈......</p>
+  
 
   <div>&nbsp;</div>
 
@@ -42,9 +44,9 @@ redirect_from:
 
 <img src="../images/img.png" width="250" height="75" align="right" style="margin-left: 20px;" />
 
-- **[中国人民大学](https://www.ruc.edu.cn/)** &emsp; 📌 2024.09 —— 2028.06
-  - 所在学院：高瓴人工智能学院
-  - 研究方向：SLAM 算法
+- **[中国人民大学](https://www.ruc.edu.cn/)** &emsp; 📌 *2024.09* —— *2028.6*
+  - **所在学院**：高瓴人工智能学院
+  - **研究方向**：视觉 *SLAM*
 
 ---
 
@@ -113,6 +115,4 @@ redirect_from:
 
 如果你对我的学习内容或报告感兴趣，欢迎浏览相关页面。
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&&section=footer&text=THE%20END!&fontSize=90&fontAlign=50&fontAlignY=70&desc=Long%20May%20the%20Sun%20Shine!&descAlign=50&descSize=30&descAlignY=40&animation=twinkling">
-</p>
+![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
