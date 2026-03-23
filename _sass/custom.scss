@@ -1,1 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap');
+
+.friend-links-intro {
+  margin-bottom: 1.5rem;
+  color: #4b5563;
+  font-size: 0.98rem;
+}
+
+.friend-links-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.friend-link-card {
+  padding: 1.25rem 1.35rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+}
+
+.friend-link-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.friend-link-card__title {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.friend-link-card__title a {
+  color: #111827;
+  text-decoration: none;
+}
+
+.friend-link-card__title a:hover {
+  color: #0f766e;
+}
+
+.friend-link-card__tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: #ecfeff;
+  color: #115e59;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.friend-link-card__desc {
+  margin: 0 0 0.85rem;
+  color: #4b5563;
+}
+
+.friend-link-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  font-size: 0.92rem;
+}
+
+.friend-link-card__meta a {
+  color: #0f766e;
+  text-decoration: none;
+}
+
+.friend-link-card__meta a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .friend-link-card__header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

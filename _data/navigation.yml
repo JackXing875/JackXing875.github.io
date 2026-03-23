@@ -10,7 +10,7 @@
 main:
   - title: "Articles"
     url: /publications/
-  - title: "Friends"
+  - title: "友链"
     url: /friends/
     
   #- title: "CV"
@@ -25,7 +25,7 @@ main:
 docs:
   - title: "Articles"
     url: /publications/
-  - title: "Friends"
+  - title: "友链"
     url: /friends/
     
   #- title: "CV"
