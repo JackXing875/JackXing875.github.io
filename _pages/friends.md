@@ -30,5 +30,4 @@ author_profile: true
 </div>
 
 <div class="friend-links-note">
-  如果你也想交换友链，可以直接通过邮箱联系我。
 </div>
