@@ -10,6 +10,8 @@
 main:
   - title: "Articles"
     url: /publications/
+  - title: "Friends"
+    url: /friends/
     
   #- title: "CV"
   #  url: /cv/
@@ -23,6 +25,8 @@ main:
 docs:
   - title: "Articles"
     url: /publications/
+  - title: "Friends"
+    url: /friends/
     
   #- title: "CV"
   #  url: /cv/
