@@ -16,7 +16,7 @@ author_profile: true
     </div>
     <a href="https://blog.palind-rome.top/" class="friend-link-card friend-link-card--violet" target="_blank" rel="noopener noreferrer">
       <img
-        src="https://avatars.githubusercontent.com/u/98678848"
+        src="https://avatars.githubusercontent.com/u/46059910?v=4"
         alt="Palind avatar"
         class="friend-link-card__avatar"
       />
