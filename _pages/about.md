@@ -77,5 +77,3 @@ Work I've completed and organized includes:
 This site is built with *GitHub Pages* and the *Academic Pages* template. All content is maintained in *Markdown* and updated on an ongoing basis.
 
 If you're interested in my coursework or reports, feel free to browse the related pages.
-
-![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
