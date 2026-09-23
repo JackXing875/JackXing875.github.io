@@ -50,8 +50,6 @@ I also have experience in **Visual SLAM and robotic perception**, which has shap
 
 ### 🔬 Course Reports & Learning Outcomes
 
-<br>
-
 Work I've completed and organized includes:
 
 - **LinkLab Lab Report**
@@ -75,7 +73,6 @@ Work I've completed and organized includes:
 ---
 
 ### About This Site
-<br>
 
 This site is built with *GitHub Pages* and the *Academic Pages* template. All content is maintained in *Markdown* and updated on an ongoing basis.
 
