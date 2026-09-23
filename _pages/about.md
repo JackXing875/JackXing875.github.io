@@ -54,37 +54,37 @@ I also have experience in **Visual SLAM and robotic perception**, which has shap
 
 ---
 
-### 课程报告与学习成果
+### 🔬 Course Reports & Learning Outcomes
 
 <br>
 
-我已完成并整理的部分内容包括：
+Work I've completed and organized includes:
 
-- **LinkLab 实验报告**
-  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Linklab](https://github.com/RUCICS/LinkLab-2025-Assignment) 的实验报告。可以在 [LinkLab 报告](https://jackxing875.github.io/publication/linklab_report) 查看。
+- **LinkLab Lab Report**
+  Report for the [LinkLab](https://github.com/RUCICS/LinkLab-2025-Assignment) assignment from the *Introduction to Computer Systems* course at Renmin University of China, *Fall 2025* semester. View it at [LinkLab Report](https://jackxing875.github.io/publication/linklab_report).
 
-- **AttackLab 实验报告**
-  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Attacklab](https://github.com/RUCICS/2025-ics1-3-attack-lab-baby-attack-homework) 的实验报告。可以在 [AttackLab 报告](https://jackxing875.github.io/publication/attacklab_report) 查看。
+- **AttackLab Lab Report**
+  Report for the [AttackLab](https://github.com/RUCICS/2025-ics1-3-attack-lab-baby-attack-homework) assignment from the *Introduction to Computer Systems* course at Renmin University of China, *Fall 2025* semester. View it at [AttackLab Report](https://jackxing875.github.io/publication/attacklab_report).
 
-- **CacheLab 实验报告** 人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Cachelab](https://github.com/RUCICS/Cachelab-2025Fall) 的实验报告。可在 [CacheLab 报告](https://jackxing875.github.io/publication/cachelab_report) 查看。
+- **CacheLab Lab Report**
+  Report for the [CacheLab](https://github.com/RUCICS/Cachelab-2025Fall) assignment from the *Introduction to Computer Systems* course at Renmin University of China, *Fall 2025* semester. View it at [CacheLab Report](https://jackxing875.github.io/publication/cachelab_report).
 
-- **BombLab 实验报告**
-  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Bomblab](https://github.com/RUCICS/2025-ics1-1-bomblab-2025-Bomblab-2025) 的实验报告。可以在 [BombLab 报告](https://jackxing875.github.io/publication/bomblab_report) 查看。
+- **BombLab Lab Report**
+  Report for the [BombLab](https://github.com/RUCICS/2025-ics1-1-bomblab-2025-Bomblab-2025) assignment from the *Introduction to Computer Systems* course at Renmin University of China, *Fall 2025* semester. View it at [BombLab Report](https://jackxing875.github.io/publication/bomblab_report).
 
-- **DataLab 实验报告**
-  人民大学 *2025* 年秋季学期课程 *Introduction to Computer System* 大作业 [Datalab](https://github.com/RUCICS/Datalab-2025Fall) 的实验报告。可以在 [DataLab 报告](https://jackxing875.github.io/publication/datalab_report) 查看。
+- **DataLab Lab Report**
+  Report for the [DataLab](https://github.com/RUCICS/Datalab-2025Fall) assignment from the *Introduction to Computer Systems* course at Renmin University of China, *Fall 2025* semester. View it at [DataLab Report](https://jackxing875.github.io/publication/datalab_report).
 
-- **《人工智能引论》课程笔记**
-  人民大学 *2025* 年秋季学期课程 *人工智能引论* 笔记。包含完整的从 *0* 入门人工智能的学习资料，由本人亲手整理。可以在 [《人工智能引论》 课程笔记](https://jackxing875.github.io/publication/AI_intro) 查看并下载 *PDF* 版资料。
-
+- **"Introduction to Artificial Intelligence" Course Notes**
+  Notes for the *Introduction to Artificial Intelligence* course at Renmin University of China, *Fall 2025* semester. Includes a complete set of self-compiled study materials for learning AI from the ground up. View and download the PDF version at [Introduction to Artificial Intelligence Course Notes](https://jackxing875.github.io/publication/AI_intro).
 
 ---
 
-### 关于本站
+### About This Site
 <br>
 
-本网站基于 *GitHub Pages* 与 *Academic Pages* 模板构建，所有内容均以 *Markdown* 形式维护，持续更新。
+This site is built with *GitHub Pages* and the *Academic Pages* template. All content is maintained in *Markdown* and updated on an ongoing basis.
 
-如果你对我的学习内容或报告感兴趣，欢迎浏览相关页面。
+If you're interested in my coursework or reports, feel free to browse the related pages.
 
 ![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
