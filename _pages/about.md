@@ -10,75 +10,47 @@ redirect_from:
 
 > "programming is the art of adding bugs to an empty text file."
 
-<div align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
-      <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" height="225px" />
-      <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" alt="Coding GIF" />
-  </picture>
-</div>
+<h2>Hi there, I'm Yuu <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand Emoji" width="30px"/></h2>
 
-<div align="center">
-  
-  <div>&nbsp;</div>
+I’m an undergraduate at the **Gaoling School of Artificial Intelligence, Renmin University of China**.
 
-  欢迎来到我的个人主页！
+My current research interests lie in **Multimodal Reasoning**, **Efficient Multimodal Models**, and **Video Generation**. In particular, I am interested in understanding and reducing computational redundancy in multimodal models through **KV cache compression**, **token pruning**, **sparse attention**, and **adaptive caching**.
 
-  <img src="https://avatars.githubusercontent.com/u/45090349?v=4" width="88" style="border-radius: 50%;" />
+I also have experience in **Visual SLAM and robotic perception**, which has shaped my interest in building efficient and robust intelligent systems that can perceive, reason about, and interact with the real world.
 
-  <p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand Emoji" width="25px"/> Hi，我是 Maliketh 。热爱文学、电影、旅行与电子游戏。</p>
-  <p>想要从零开始实现属于自己的操作系统，内核、CPU 架构、编译器与网络栈......</p>
-  
+**Connect with me:**
 
-  <div>&nbsp;</div>
-
-</div>
-
-本网站用于整理和展示我的**课程报告、项目总结与学习笔记**，作为个人学习过程的长期记录。
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge\&logo=google-scholar\&logoColor=white)](https://scholar.google.com/citations?user=1X2VP3AAAAAJ&hl=en) 
+[![X (Twitter)](https://img.shields.io/badge/X_\(Twitter\)-000000?style=for-the-badge\&logo=x\&logoColor=white)](https://x.com/Schrieffer875) 
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:xjack875@gmail.com)
 
 ---
 
-### 教育背景
+### 🚀 Research & Projects
 
-<br>
+* **[Constraint-Guided Prompting and Semantic-Aware Evaluation for LLM-Based ABSA](https://link.springer.com/chapter/10.1007/978-981-92-3435-6_2)**
+  
+   — *Muzhi Li, **Tiancheng Xing**, Yuheng Wang*, **ICIC 2026 · Springer LNAI**
 
-<img src="../images/img.png" width="250" height="75" align="right" style="margin-left: 20px;" />
+  * Introduces **Constraint-Guided Prompting (CGP)** for more reliable structured extraction with large language models and **Sem-F1**, a semantic-aware evaluation protocol for Aspect-Based Sentiment Analysis.
 
-- **[中国人民大学](https://www.ruc.edu.cn/)** &emsp; 📌 *2024.09* —— *2028.6*
-  - **所在学院**：高瓴人工智能学院
-  - **研究方向**：视觉 *SLAM*
+* **[NeneBot](https://github.com/JackXing875/NeneBot)**
 
----
+  * A **source-grounded character conversational AI** that uses RAG over original game scripts to preserve character knowledge and persona. It combines **FAISS-based semantic retrieval**, pluggable local/cloud LLM backends, **multi-turn session memory**, real-time SSE streaming, and an immersive **Vue 3 visual-novel interface**.
 
-### 技术栈
+* **[SLAMForge](https://github.com/JackXing875/SLAMForge)**
 
-<br>
+  * A **C++20 monocular visual SLAM and dense reconstruction system** inspired by ORB-SLAM3. It combines geometric tracking, local bundle adjustment, **Sim(3) loop closure**, and pose-graph optimization with **learned monocular depth**, using sparse SLAM landmarks and multi-view consistency to reconstruct a colored dense 3D map.
 
-<div align="center">
 
-<table>
-  <tr>
-    <td width="220">
-      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" height="28" />
-    </td>
-    <td>熟悉 C++，用于 SLAM 算法设计</td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="28" />
-    </td>
-    <td>熟悉 Python，用于快速原型、算法实现与数据处理</td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="28" />
-    </td>
-    <td>熟悉 Linux 操作系统</td>
-  </tr>
-</table>
-</div>
+### 🧠 Research Interests
 
-<div>&nbsp;</div>
+* **Multimodal Reasoning:** Vision-Language Models · Long-Horizon Reasoning · Visual Information Flow
+* **Efficient Multimodal Inference:** KV Cache Compression & Eviction · Token Pruning · Sparse Attention · Dynamic Budget Allocation
+* **Video Generation:** Diffusion Models · Flow Matching · Video DiT · Autoregressive / Chunk-wise Generation · Feature & KV Caching
+* **Embodied Intelligence:** Vision-Language-Action Models · World Models · Efficient Embodied Reasoning
+
+
 
 ---
 
