@@ -27,11 +27,11 @@ author:
   avatar           : "profile.png"
   name             : "Maliketh"
   pronouns         : # example: "she/her"  
-  bio              : "B.S. candidate in Artificial Intelligence, with interests in SLAM and Multimodal Learning"
+  bio              : "B.S. candidate in Artificial Intelligence, with interests in Multimodal Reasoning"
   location         : "Beijing, China"
   employer         : "Renmin University of China"
   uri              : # URL
-  email            : "XingTiancheng@ruc.edu.cn" 
+  email            : "xingtiancheng@ruc.edu.cn" 
 
   # Academic websites
   academia         : # URL
