@@ -11,7 +11,16 @@
     {% unless include.compact %}<p class="publication-summary">{{ paper.summary }}</p>{% endunless %}
     <div class="publication-links">
       <a class="text-link" href="{{ paper.paper_url }}">Read paper <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
-      {% unless include.compact %}<span class="publication-doi">DOI: {{ paper.doi }}</span>{% endunless %}
+      {% unless include.compact %}<a class="publication-doi" href="https://doi.org/{{ paper.doi }}">DOI: {{ paper.doi }}</a>{% endunless %}
     </div>
+    {% unless include.compact %}{% if paper.bibtex %}
+      <details class="publication-citation">
+        <summary>BibTeX</summary>
+        <div class="citation-content">
+          <div class="citation-toolbar"><span class="citation-status" role="status"></span><button class="copy-citation outline-button" type="button" hidden>Copy citation</button></div>
+          <pre><code>{{ paper.bibtex | escape }}</code></pre>
+        </div>
+      </details>
+    {% endif %}{% endunless %}
   </div>
 </article>

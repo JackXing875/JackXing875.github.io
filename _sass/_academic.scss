@@ -43,6 +43,7 @@
   --global-code-text-color: #282722;
   --global-thead-color: #efede6;
   --academic-accent-soft: #f4e6de;
+  --academic-surface: #f4f2ec;
   color-scheme: light;
 }
 
@@ -63,6 +64,7 @@ html[data-theme="dark"] {
   --global-code-text-color: #f0eee5;
   --global-thead-color: #33332e;
   --academic-accent-soft: #3e3029;
+  --academic-surface: #2d2d28;
   color-scheme: dark;
 }
 
@@ -85,11 +87,24 @@ a {
   &:visited { color: var(--global-link-color-visited); }
   &:hover { color: var(--global-link-color-hover); }
 }
-a:focus-visible, button:focus-visible {
+a:focus-visible, button:focus-visible, summary:focus-visible {
   outline: 2px solid var(--global-base-color);
   outline-offset: 5px;
 }
 button { font-family: var(--font-heading); }
+[hidden] { display: none !important; }
+::selection { background: var(--academic-accent-soft); color: var(--global-text-color); }
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 20px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-link-color);
+  font: 13px var(--font-heading);
+  &:focus { top: 12px; }
+}
 .masthead { animation: none; }
 .masthead__inner-wrap {
   display: flex;
@@ -142,7 +157,9 @@ button { font-family: var(--font-heading); }
 #main.academic-main { margin: 58px auto 70px; animation: none; }
 .academic-page { max-width: 960px; margin: 0 auto; }
 .academic-header {
-  margin-bottom: 34px;
+  margin-bottom: 36px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--global-border-color);
   h1 { margin: 0 0 10px; font-size: 38px; font-weight: 500; letter-spacing: -0.035em; }
 }
 .name-alias {
@@ -168,10 +185,28 @@ button { font-family: var(--font-heading); }
   ul { padding-left: 22px; }
   li { margin-bottom: 7px; }
 }
+.home-page .academic-header { border-bottom: 0; padding-bottom: 0; }
+.home-page .academic-header h1 { font-size: 42px; }
 .home-introduction {
   display: flow-root;
   p { max-width: 64ch; }
 }
+.home-section {
+  margin-top: 44px;
+  padding-top: 28px;
+  border-top: 1px solid var(--global-border-color);
+  .section-heading { margin: 0 0 24px; }
+  .section-heading h2 { margin: 0; font-size: 23px; font-weight: 500; }
+  .research-publication { padding-top: 0; padding-bottom: 0; border-top: 0; }
+}
+.interest-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px 48px; }
+.interest-entry {
+  padding-left: 18px;
+  border-left: 2px solid var(--global-border-color);
+  h3 { margin: 0 0 7px; font-size: 15px; font-weight: 500; }
+  p { margin: 0; color: var(--global-text-color-light); font-size: 14px; line-height: 1.8; }
+}
+.section-intro { color: var(--global-text-color-light); font-size: 14px; }
 .home-profile {
   float: right;
   width: 30%;
@@ -232,19 +267,32 @@ button { font-family: var(--font-heading); }
 .publication-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px 20px; margin-top: 14px; }
 .text-link { font: 500 12px/1.8 var(--font-heading); }
 .academic-content a > .fa-arrow-up-right-from-square { margin-left: 3px; font-size: 0.65em; vertical-align: 0.1em; }
-.publication-doi { color: var(--global-text-color-light); font-size: 11px; overflow-wrap: anywhere; }
+.publication-doi, .publication-doi:visited { color: var(--global-text-color-light); font-size: 11px; overflow-wrap: anywhere; }
+.publication-citation {
+  margin-top: 12px;
+  font: 12px/1.8 var(--font-heading);
+  summary { width: fit-content; color: var(--global-link-color); cursor: pointer; }
+}
+.citation-content { margin-top: 12px; padding: 14px 18px; background: var(--academic-surface); border: 1px solid var(--global-border-color); border-radius: 4px; }
+.citation-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+.citation-status { color: var(--global-text-color-light); font-size: 11px; }
+.citation-content pre { margin: 0; padding: 0; background: transparent; border: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; line-height: 1.8; }
+.citation-content code { background: transparent; }
 .publication-year > h2 { color: var(--global-text-color-light); font-size: 20px; font-weight: 400; }
 .section-note { margin-top: 32px !important; padding-top: 22px; border-top: 1px solid var(--global-border-color); color: var(--global-text-color-light); font-size: 14px; }
-.project-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
+.project-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .project-entry {
-  padding-top: 20px;
-  border-top: 1px solid var(--global-border-color);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
   h3 { margin: 0 0 7px; font-size: 18px; }
   p { font-size: 14px; }
+  .project-tools { margin: auto 0 0; padding-top: 6px; font-size: 11px; }
 }
 .project-area, .project-tools { color: var(--global-text-color-light); font: 11px/1.8 var(--font-heading); }
 .project-entry .project-area { font-size: 11px; margin-bottom: 14px; }
-.home-note { margin-top: 42px !important; color: var(--global-text-color-light); font-size: 13px; font-style: italic; }
 
 .cv-toolbar { display: flex; flex-wrap: wrap; align-items: baseline; gap: 16px; justify-content: space-between; font-size: 13px; }
 .cv-toolbar p { margin: 0; }
@@ -274,7 +322,19 @@ button { font-family: var(--font-heading); }
   border-top: 1px solid var(--global-border-color);
   time { padding-top: 4px; font: 12px/1.8 var(--font-heading); color: var(--global-text-color-light); }
   h2 { margin: 0 0 8px; font-size: 19px; }
+  h2 a, h3 a { color: var(--global-text-color); }
+  h2 a:hover, h3 a:hover { color: var(--global-link-color); }
   p { margin-bottom: 10px; font-size: 14px; }
+}
+.articles-page { max-width: 820px; }
+.articles-page .article-entry:first-child { border-top: 0; padding-top: 4px; }
+.article-description { color: var(--global-text-color-light); }
+.article-links { display: flex; flex-wrap: wrap; gap: 20px; }
+.article-entry--compact {
+  padding: 17px 0;
+  h3 { margin: 0; font-size: 16px; font-weight: 500; }
+  time { padding-top: 0; }
+  &:last-child { padding-bottom: 0; }
 }
 
 /* Existing long-form reports retain their readable sidebar layout. */
@@ -288,9 +348,12 @@ button { font-family: var(--font-heading); }
 .sidebar .author__name { font-size: 17px; }
 .sidebar p, .sidebar li { font-size: 11px; }
 .page__footer { animation: none; border-color: var(--global-border-color); }
-.page__footer footer { max-width: 1100px; padding: 20px 30px 26px; margin-top: 0; }
-.page__footer-copyright, .page__footer-follow li { font-family: var(--font-heading); font-size: 10px; }
-.page__footer-follow { margin-bottom: 12px; }
+.page__footer footer { max-width: 1020px; padding: 30px 30px 24px; margin-top: 0; }
+.academic-footer { display: flex; align-items: start; justify-content: space-between; gap: 22px; font-family: var(--font-heading); }
+.footer-identity > a { font-size: 14px; font-weight: 500; color: var(--global-text-color); }
+.footer-identity p { margin: 8px 0 0; font-size: 11px; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 10px 22px; padding-top: 3px; font-size: 12px; }
+.footer-colophon { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px; padding-top: 26px; font: 10px/1.7 var(--font-heading); }
 
 /* Bring the existing friends page into the same quiet visual style. */
 .friend-links-grid { gap: 20px; }
@@ -302,7 +365,8 @@ button { font-family: var(--font-heading); }
   box-shadow: none;
   backdrop-filter: none;
 }
-.friend-link-card:hover { transform: translateY(-3px); border-color: var(--global-link-color); box-shadow: none; }
+.friend-link-card:hover { transform: none; border-color: var(--global-link-color); box-shadow: none; }
+.friend-link-card:hover .friend-link-card__avatar, .friend-link-card:hover .friend-link-card__name { transform: none; }
 .friend-link-card::before, .friend-link-card__content::after { display: none; }
 .friend-link-card__name { color: var(--global-text-color); }
 .friend-link-card__quote, .friend-links-intro, .friend-links-note { color: var(--global-text-color-light); }
@@ -326,12 +390,12 @@ button { font-family: var(--font-heading); }
   .academic-nav a { font-size: 12px; }
   #main { padding: 0 22px; }
   #main.academic-main { margin-top: 36px; }
-  .academic-header h1 { font-size: 31px; }
+  .academic-header h1, .home-page .academic-header h1 { font-size: 31px; }
   .home-profile { margin-left: 28px; }
 }
 @media (max-width: 580px) {
   .academic-header { margin-bottom: 24px; }
-  .academic-header h1 { font-size: 29px; }
+  .academic-header h1, .home-page .academic-header h1 { font-size: 29px; }
   .name-alias { margin-left: 12px; font-size: 16px; }
   .page-subtitle { font-size: 11px; }
   .home-profile { float: none; width: 100%; margin: 0 0 30px; }
@@ -342,6 +406,12 @@ button { font-family: var(--font-heading); }
   .publication-label .presentation-label { margin-top: 0; }
   .publication-content h3 { font-size: 16px; }
   .project-list { grid-template-columns: 1fr; gap: 14px; }
+  .project-entry { padding: 20px; }
+  .home-section { margin-top: 34px; padding-top: 24px; }
+  .home-section .section-heading { gap: 10px 16px; margin-bottom: 22px; }
+  .home-section .section-heading h2 { font-size: 22px; }
+  .interest-list { grid-template-columns: 1fr; gap: 22px; }
+  .academic-footer { flex-direction: column; }
   .cv-entry { grid-template-columns: 1fr; gap: 2px; }
   .cv-entry .cv-date { margin-bottom: 7px; }
   .section-heading { flex-wrap: wrap; gap: 0 15px; margin-bottom: 14px; }
@@ -357,7 +427,7 @@ button { font-family: var(--font-heading); }
   body { margin: 0 !important; padding: 0 !important; background: #fff; line-height: 1.4; }
   .masthead, .page__footer, .cv-toolbar button { display: none; }
   #main.academic-main { max-width: none; margin: 0; padding: 0; }
-  .academic-header { margin-bottom: 12px; }
+  .academic-header { margin-bottom: 12px; padding-bottom: 0; border: 0; }
   .academic-header h1 { font-size: 22pt; }
   .cv-page h2 { margin-top: 14px; margin-bottom: 8px; padding-bottom: 6px; font-size: 13pt; break-after: avoid; }
   .cv-page h3 { font-size: 10pt; }
@@ -371,5 +441,5 @@ button { font-family: var(--font-heading); }
   a { text-decoration: none !important; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .friend-link-card:hover { transform: none; }
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }

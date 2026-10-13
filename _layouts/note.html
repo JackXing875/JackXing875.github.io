@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<main id="main" class="academic-main reading-main">
+  <article class="reading-page" lang="zh-CN" aria-labelledby="note-title">
+    <header class="reading-header">
+      <a class="back-link" href="{{ '/articles/' | relative_url }}"><span aria-hidden="true">&larr;</span> Articles &amp; notes</a>
+      <h1 id="note-title">{{ page.title }}</h1>
+      <div class="reading-meta">
+        <span>{{ site.author.name }}</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d %b %Y' }}</time>
+        {% if page.paperurl %}<a href="{{ page.paperurl | replace: 'https://jackxing875.github.io', site.baseurl | replace: 'https://JackXing875.github.io', site.baseurl }}">Download PDF <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>{% endif %}
+      </div>
+      {% if page.excerpt %}<div class="reading-description">{{ page.excerpt | markdownify }}</div>{% endif %}
+    </header>
+    <div class="reading-layout">
+      <aside class="reading-toc" hidden>
+        <details>
+          <summary>On this page</summary>
+          <nav aria-label="Table of contents"></nav>
+        </details>
+      </aside>
+      <div class="reading-content">{{ content }}</div>
+    </div>
+    <footer class="reading-footer">
+      <a href="{{ '/articles/' | relative_url }}"><span aria-hidden="true">&larr;</span> All articles</a>
+      <a href="#note-title">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </footer>
+  </article>
+</main>

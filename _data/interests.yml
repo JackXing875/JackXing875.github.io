@@ -1,0 +1,8 @@
+- title: Multimodal reasoning
+  description: Vision–language models, long-horizon reasoning, and visual information flow.
+- title: Efficient inference
+  description: KV cache compression, token pruning, sparse attention, and adaptive caching.
+- title: Video generation
+  description: Diffusion models, flow matching, video DiTs, and feature reuse.
+- title: Embodied intelligence
+  description: Vision–language–action models, world models, and efficient perception.

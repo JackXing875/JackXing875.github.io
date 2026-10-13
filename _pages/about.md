@@ -24,8 +24,6 @@ redirect_from:
   </div>
 </aside>
 
-Hi, I'm **Tiancheng Xing**, also known as **Yuu**.
-
 I'm an undergraduate at the **Gaoling School of Artificial Intelligence, Renmin University of China**. My research interests lie in **multimodal reasoning**, **efficient multimodal models**, and **video generation**.
 
 I am particularly interested in understanding and reducing computational redundancy in multimodal models through KV cache compression, token pruning, sparse attention, and adaptive caching.
@@ -35,20 +33,29 @@ I also have experience in **visual SLAM and robotic perception**, which has shap
 <p class="intro-links"><a href="{{ '/publications/' | relative_url }}">Publications <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="{{ '/cv/' | relative_url }}">Curriculum vitae <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="mailto:{{ site.author.email }}">Email <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
 </div>
 
-## Research interests
+<section class="home-section" aria-labelledby="research-interests">
+  <div class="section-heading"><h2 id="research-interests">Research interests</h2></div>
+  <div class="interest-list">
+    {% for interest in site.data.interests %}
+      <div class="interest-entry">
+        <h3>{{ interest.title }}</h3>
+        <p>{{ interest.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
-- **Multimodal reasoning** — Vision-language models, long-horizon reasoning, and visual information flow.
-- **Efficient multimodal inference** — KV cache compression, token pruning, sparse attention, and adaptive caching.
-- **Video generation** — Diffusion models, flow matching, video DiTs, and feature reuse.
-- **Embodied intelligence** — Vision-language-action models, world models, and efficient perception.
-
-<div class="section-heading"><h2>Selected publication</h2><a href="{{ '/publications/' | relative_url }}">All publications <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></div>
+<section class="home-section" aria-labelledby="selected-publication">
+<div class="section-heading"><h2 id="selected-publication">Selected publication</h2><a href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">&rarr;</span></a></div>
 
 {% for paper in site.data.research %}
   {% include research-publication.html paper=paper %}
 {% endfor %}
 
-## Selected projects
+</section>
+
+<section class="home-section" aria-labelledby="selected-projects">
+<div class="section-heading"><h2 id="selected-projects">Selected projects</h2><a href="https://github.com/{{ site.author.github }}">GitHub <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></div>
 
 <div class="project-list">
 {% for project in site.data.projects %}
@@ -56,12 +63,20 @@ I also have experience in **visual SLAM and robotic perception**, which has shap
     <h3><a href="{{ project.url }}">{{ project.name }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></h3>
     <p class="project-area">{{ project.area }}</p>
     <p>{{ project.description }}</p>
+    <p class="project-tools">{{ project.tools }}</p>
   </article>
 {% endfor %}
 </div>
 
-## Notes & coursework
+</section>
 
-I also keep course notes and reports on computer systems and artificial intelligence, including LinkLab, AttackLab, CacheLab, BombLab, and DataLab. [Browse my articles and notes →]({{ '/articles/' | relative_url }})
-
-<p class="home-note">“Programming is the art of adding bugs to an empty text file.”</p>
+<section class="home-section" aria-labelledby="recent-writing">
+  <div class="section-heading"><h2 id="recent-writing">Recent writing</h2><a href="{{ '/articles/' | relative_url }}">All articles <span aria-hidden="true">&rarr;</span></a></div>
+  <p class="section-intro">Notes and experiments in artificial intelligence and computer systems.</p>
+  <div class="article-list">
+    {% assign recent_notes = site.publications | sort: 'date' | reverse %}
+    {% for note in recent_notes limit:3 %}
+      {% include note-entry.html note=note compact=true %}
+    {% endfor %}
+  </div>
+</section>

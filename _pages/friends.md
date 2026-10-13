@@ -1,6 +1,7 @@
 ---
 layout: academic
-title: "友情链接"
+title: "Friends"
+subtitle: "People and places worth reading."
 permalink: /friends/
 author_profile: true
 ---

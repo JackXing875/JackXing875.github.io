@@ -1,0 +1,13 @@
+<article class="article-entry{% if include.compact %} article-entry--compact{% endif %}">
+  <time datetime="{{ include.note.date | date_to_xmlschema }}">{{ include.note.date | date: '%d %b %Y' }}</time>
+  <div>
+    <h{% if include.compact %}3{% else %}2{% endif %}><a href="{{ include.note.url | relative_url }}">{{ include.note.title }}</a></h{% if include.compact %}3{% else %}2{% endif %}>
+    {% unless include.compact %}
+      {% if include.note.excerpt %}<div class="article-description">{{ include.note.excerpt | markdownify }}</div>{% endif %}
+      <div class="article-links">
+        <a class="text-link" href="{{ include.note.url | relative_url }}">Read note <span aria-hidden="true">&rarr;</span></a>
+        {% if include.note.paperurl %}<a class="text-link" href="{{ include.note.paperurl | replace: 'https://jackxing875.github.io', site.baseurl | replace: 'https://JackXing875.github.io', site.baseurl }}">PDF <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>{% endif %}
+      </div>
+    {% endunless %}
+  </div>
+</article>
