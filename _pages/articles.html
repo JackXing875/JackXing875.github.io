@@ -1,0 +1,20 @@
+---
+layout: academic
+title: "Articles & notes"
+permalink: /articles/
+subtitle: "Course reports, experiments, and things I've learned along the way."
+---
+
+<div class="article-list">
+  {% assign articles = site.publications | sort: 'date' | reverse %}
+  {% for post in articles %}
+    <article class="article-entry">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %Y' }}</time>
+      <div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.excerpt %}<div class="article-description">{{ post.excerpt | markdownify }}</div>{% endif %}
+        {% if post.paperurl %}<a class="text-link" href="{{ post.paperurl | replace: 'https://jackxing875.github.io', site.baseurl | replace: 'https://JackXing875.github.io', site.baseurl }}">PDF <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

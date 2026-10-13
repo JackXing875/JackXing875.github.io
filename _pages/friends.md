@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: academic
 title: "友情链接"
 permalink: /friends/
 author_profile: true

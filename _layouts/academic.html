@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<main id="main" class="academic-main">
+  <article class="academic-page{% if page.page_class %} {{ page.page_class }}{% endif %}">
+    <header class="academic-header">
+      <h1>{{ page.heading | default: page.title }}{% if page.alias %} <span class="name-alias">{{ page.alias }}</span>{% endif %}</h1>
+      {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+    </header>
+    <div class="academic-content">{{ content }}</div>
+  </article>
+</main>

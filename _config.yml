@@ -10,10 +10,10 @@
 
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yuu's Blog"
+title                    : "Tiancheng Xing"
 title_separator          : "-"
-name                     : &name "Maliketh"
-description              : &description "Maliketh's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Tiancheng Xing"
+description              : &description "Tiancheng Xing (Yuu) — undergraduate at Renmin University of China, working on multimodal reasoning, efficient multimodal models, and video generation."
 url                      : https://JackXing875.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,18 +25,19 @@ repository               : "JackXing875/JackXing875.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yuu"
+  name             : "Tiancheng Xing"
+  nickname         : "Yuu"
   pronouns         : # example: "she/her"  
   bio              : "B.S. candidate in Artificial Intelligence, with interests in Multimodal Reasoning and Large Language Models."
   location         : "Beijing, China"
   employer         : "Renmin University of China"
   uri              : # URL
-  email            : "xingtiancheng@ruc.edu.cn" 
+  email            : "xjack875@gmail.com"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #"https://scholar.google.com/citations?user=1X2VP3AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=1X2VP3AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : #"https://orcid.org/0009-0005-4246-2603"

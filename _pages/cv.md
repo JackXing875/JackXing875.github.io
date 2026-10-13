@@ -1,58 +1,61 @@
 ---
-layout: archive
-title: "我的简历"
+layout: academic
+title: "Curriculum vitae"
 permalink: /cv/
-author_profile: true
+page_class: cv-page
+subtitle: "Tiancheng Xing · Yuu"
 redirect_from:
   - /resume
+  - /cv-json/
+  - /resume-json
 ---
 
-{% include base_path %}
+<div class="cv-toolbar">
+  <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><span aria-hidden="true"> · </span><a href="https://github.com/{{ site.author.github }}">GitHub</a><span aria-hidden="true"> · </span><a href="{{ site.author.googlescholar }}">Google Scholar</a></p>
+  <button type="button" class="outline-button" onclick="window.print()">Print / Save PDF</button>
+</div>
 
-教育背景
-======
-* **中国人民大学**  
-  高瓴人工智能学院
-  专业方向：人工智能 
-  时间：2024 – 至今
+## Education
 
----
+<div class="cv-entry" markdown="1">
+<p class="cv-date">2024 – present</p>
+<div markdown="1">
 
-项目与课程报告
-======
-* **全连接神经网络运行机制**  
-  * 课程：人工智能导论  
-  * 内容：前向传播、反向传播、损失函数与参数更新  
-  * 实现：基于 NumPy 的多层感知机
+### Renmin University of China
 
-* **CacheLab 实验报告**  
-  * 课程：操作系统  
-  * 内容：Cache 映射方式、命中率分析与示例推导
+**B.S. candidate in Artificial Intelligence**<br />
+Gaoling School of Artificial Intelligence · Beijing, China
 
----
+</div>
+</div>
 
-技能
-======
-* 编程语言：
-  * C++
-  * Python
-  * Java
+## Research interests
 
-* 工具与环境：
-  * Linux
-  * Git / GitHub
-  * VS Code
+Multimodal reasoning; efficient multimodal inference; video generation; embodied intelligence. Current interests include KV cache compression, token pruning, sparse attention, adaptive caching, and vision-language models.
 
-* 相关方向：
-  * 机器学习 / 深度学习
-  * SLAM
+## Publications
 
----
-
-文章
-======
-<ul>
-{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
+{% for paper in site.data.research %}
+  {% include research-publication.html paper=paper compact=true %}
 {% endfor %}
-</ul>
+
+## Selected projects
+
+{% for project in site.data.projects %}
+<div class="cv-project">
+  <h3><a href="{{ project.url }}">{{ project.name }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></h3>
+  <p>{{ project.description }}</p>
+  <p class="project-tools">{{ project.tools }}</p>
+</div>
+{% endfor %}
+
+## Technical skills
+
+- **Programming:** Python, C++, Java.
+- **AI & perception:** Retrieval-augmented generation, FAISS semantic retrieval, visual SLAM, and dense reconstruction.
+- **Development:** Linux, Git, FastAPI, and Vue 3.
+
+## Selected coursework & reports
+
+- **Introduction to Artificial Intelligence:** [Course notes]({{ '/publication/AI_intro' | relative_url }}), including a NumPy implementation of a multilayer perceptron.
+- **Introduction to Computer Systems:** [LinkLab]({{ '/publication/linklab_report' | relative_url }}), [AttackLab]({{ '/publication/attacklab_report' | relative_url }}), [CacheLab]({{ '/publication/cachelab_report' | relative_url }}), [BombLab]({{ '/publication/bomblab_report' | relative_url }}), and [DataLab]({{ '/publication/datalab_report' | relative_url }}).

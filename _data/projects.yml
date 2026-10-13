@@ -1,0 +1,17 @@
+# Source: the GitHub profile and each project's README.
+- name: "NeneBot"
+  area: "Retrieval-augmented generation"
+  url: "https://github.com/JackXing875/NeneBot"
+  description: >-
+    A character conversational AI grounded in original game scripts. Combines
+    FAISS semantic retrieval, pluggable local and cloud LLM backends, multi-turn
+    memory, SSE streaming, and a Vue 3 visual-novel interface.
+  tools: "Python · FastAPI · FAISS · Vue 3"
+- name: "SLAMForge"
+  area: "Visual SLAM & dense reconstruction"
+  url: "https://github.com/JackXing875/SLAMForge"
+  description: >-
+    A C++20 monocular visual SLAM and dense reconstruction system inspired by
+    ORB-SLAM3. Combines geometric tracking, local bundle adjustment, Sim(3) loop
+    closure, and pose-graph optimization with learned depth and multi-view consistency.
+  tools: "C++20 · Python · Ceres · g2o"
