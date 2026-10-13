@@ -1,0 +1,4 @@
+<header class="academic-header">
+  <h1>{{ page.heading | default: page.title }}{% if page.alias %} <span class="name-alias">{{ page.alias }}</span>{% endif %}</h1>
+  {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+</header>

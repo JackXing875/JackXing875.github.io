@@ -11,7 +11,8 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-introduction" markdown="1">
+<div class="home-hero" markdown="1">
+{% include academic-header.html %}
 <aside class="home-profile" aria-label="Profile">
   <img src="{{ '/images/profile.png' | relative_url }}" alt="Yuu's profile avatar" width="280" height="280" fetchpriority="high" />
   <p>Gaoling School of<br />Artificial Intelligence<br /><span>Renmin University of China</span></p>
@@ -24,6 +25,7 @@ redirect_from:
   </div>
 </aside>
 
+<div class="home-introduction" markdown="1">
 I'm an undergraduate at the **Gaoling School of Artificial Intelligence, Renmin University of China**. My research interests lie in **multimodal reasoning**, **efficient multimodal models**, and **video generation**.
 
 I am particularly interested in understanding and reducing computational redundancy in multimodal models through KV cache compression, token pruning, sparse attention, and adaptive caching.
@@ -31,6 +33,7 @@ I am particularly interested in understanding and reducing computational redunda
 I also have experience in **visual SLAM and robotic perception**, which has shaped my interest in building efficient, robust systems that can perceive, reason about, and interact with the real world.
 
 <p class="intro-links"><a href="{{ '/publications/' | relative_url }}">Publications <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="{{ '/cv/' | relative_url }}">Curriculum vitae <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="mailto:{{ site.author.email }}">Email <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+</div>
 </div>
 
 <section class="home-section" aria-labelledby="research-interests">
