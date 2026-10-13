@@ -8,7 +8,7 @@ main: &main_navigation
     url: /cv/
   - title: "Articles"
     url: /articles/
-  - title: "友链"
+  - title: "Friends"
     url: /friends/
 
 docs: *main_navigation

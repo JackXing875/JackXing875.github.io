@@ -174,11 +174,11 @@ button { font-family: var(--font-heading); }
 }
 .home-profile {
   float: right;
-  width: 230px;
-  margin: 0 0 16px 46px;
+  width: 30%;
+  margin: 0 0 16px 40px;
   text-align: center;
   font-family: var(--font-heading);
-  img { display: block; width: 200px; height: 200px; object-fit: cover; border-radius: 50%; margin: 0 auto 20px; }
+  img { display: block; width: 100%; max-width: 280px; height: auto; object-fit: cover; border-radius: 50%; margin: 0 auto 20px; }
   p { font-size: 12px; line-height: 1.85; margin-bottom: 8px; }
   p span { color: var(--global-text-color-light); }
   .profile-location { color: var(--global-text-color-light); font-size: 11px; }
@@ -327,8 +327,7 @@ button { font-family: var(--font-heading); }
   #main { padding: 0 22px; }
   #main.academic-main { margin-top: 36px; }
   .academic-header h1 { font-size: 31px; }
-  .home-profile { width: 180px; margin-left: 28px; }
-  .home-profile img { width: 158px; height: 158px; }
+  .home-profile { margin-left: 28px; }
 }
 @media (max-width: 580px) {
   .academic-header { margin-bottom: 24px; }
@@ -336,7 +335,7 @@ button { font-family: var(--font-heading); }
   .name-alias { margin-left: 12px; font-size: 16px; }
   .page-subtitle { font-size: 11px; }
   .home-profile { float: none; width: 100%; margin: 0 0 30px; }
-  .home-profile img { width: 150px; height: 150px; }
+  .home-profile img { width: 200px; max-width: 70%; }
   .academic-content h2 { font-size: 22px; }
   .research-publication { grid-template-columns: 1fr; gap: 14px; }
   .publication-label { display: flex; align-items: center; gap: 12px; padding: 0; }

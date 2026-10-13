@@ -13,7 +13,7 @@ redirect_from:
 
 <div class="home-introduction" markdown="1">
 <aside class="home-profile" aria-label="Profile">
-  <img src="{{ '/images/profile.png' | relative_url }}" alt="Yuu's profile avatar" width="220" height="220" fetchpriority="high" />
+  <img src="{{ '/images/profile.png' | relative_url }}" alt="Yuu's profile avatar" width="280" height="280" fetchpriority="high" />
   <p>Gaoling School of<br />Artificial Intelligence<br /><span>Renmin University of China</span></p>
   <p class="profile-location">Beijing, China</p>
   <div class="profile-links">
