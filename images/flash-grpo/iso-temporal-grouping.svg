@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1405" viewBox="0 0 720 1405" role="img" aria-labelledby="title desc">
+<title id="title">ITG：让同组的随机转移位置对齐</title>
+<desc id="desc">朴素单步方法中，同一个提示词的不同初始噪声轨迹在不同去噪位置使用 SDE，却混为一个奖励组。ITG 中，同一个提示词的独立初始噪声轨迹共享一个 SDE 位置，并在同提示词同时间条件下比较奖励；不同提示词可选择不同位置。所有轨迹都生成完整视频。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L6,4 L1,7" fill="none" stroke="#415B6B" stroke-width="1.8"/></marker></defs>
+<g font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="720" height="1405" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="32" y="52" font-size="32" fill="#172D3C" font-weight="700" text-anchor="start">ITG：同组对齐时间条件</text>
+<text x="32" y="91" font-size="24" fill="#415B6B" font-weight="400" text-anchor="start">共享的是去噪位置，各条初始噪声仍不同</text>
+<line x1="36" y1="123" x2="75" y2="123" stroke="#246A9B" stroke-width="4"/>
+<text x="87" y="131" font-size="22" fill="#172D3C" font-weight="400" text-anchor="start">ODE 转移</text>
+<line x1="279" y1="123" x2="318" y2="123" stroke="#9A4718" stroke-width="7"/>
+<text x="330" y="131" font-size="22" fill="#172D3C" font-weight="400" text-anchor="start">选中的 SDE 转移</text>
+<rect x="24" y="157" width="672" height="410" rx="16" fill="#F7FAFC" stroke="#D5E1E8"/>
+<text x="44" y="200" font-size="26" fill="#172D3C" font-weight="700" text-anchor="start">朴素单步：同一个 prompt A</text>
+<text x="44" y="235" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">每条 rollout 独立选择 SDE 位置</text>
+<rect x="42" y="259" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="286" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 1</text>
+<line x1="157" y1="278" x2="514" y2="278" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="160" y1="278" x2="226" y2="278" stroke="#9A4718" stroke-width="7"/>
+<circle cx="160" cy="278" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="226" cy="278" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="256" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="286" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 1 → R1</text>
+<rect x="42" y="334" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="361" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 2</text>
+<line x1="157" y1="353" x2="514" y2="353" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="353" x2="358" y2="353" stroke="#9A4718" stroke-width="7"/>
+<circle cx="292" cy="353" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="358" cy="353" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="331" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="361" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 2 → R2</text>
+<rect x="42" y="409" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="436" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 3</text>
+<line x1="157" y1="428" x2="514" y2="428" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="424" y1="428" x2="490" y2="428" stroke="#9A4718" stroke-width="7"/>
+<circle cx="424" cy="428" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="490" cy="428" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="406" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="436" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 3 → R3</text>
+<rect x="42" y="503" width="628" height="45" rx="10" fill="#EAF6F2" stroke="none"/>
+<text x="57" y="533" font-size="22" fill="#17756D" font-weight="600" text-anchor="start">同组混合了不同时间条件下的奖励</text>
+<rect x="24" y="589" width="672" height="410" rx="16" fill="#F7FAFC" stroke="#D5E1E8"/>
+<text x="44" y="632" font-size="26" fill="#172D3C" font-weight="700" text-anchor="start">ITG：同一个 prompt A</text>
+<text x="44" y="667" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">同组 3 条 rollout 共用位置 tA</text>
+<rect x="42" y="691" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="718" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 1</text>
+<line x1="157" y1="710" x2="514" y2="710" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="710" x2="358" y2="710" stroke="#9A4718" stroke-width="7"/>
+<circle cx="292" cy="710" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="358" cy="710" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="688" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="718" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 1 → R1</text>
+<rect x="42" y="766" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="793" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 2</text>
+<line x1="157" y1="785" x2="514" y2="785" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="785" x2="358" y2="785" stroke="#9A4718" stroke-width="7"/>
+<circle cx="292" cy="785" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="358" cy="785" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="763" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="793" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 2 → R2</text>
+<rect x="42" y="841" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="868" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 3</text>
+<line x1="157" y1="860" x2="514" y2="860" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="860" x2="358" y2="860" stroke="#9A4718" stroke-width="7"/>
+<circle cx="292" cy="860" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="358" cy="860" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="838" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="868" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 3 → R3</text>
+<line x1="325.0" y1="681" x2="325.0" y2="867" stroke="#9A4718" stroke-width="1.5" stroke-dasharray="3 7"/>
+<rect x="42" y="935" width="628" height="45" rx="10" fill="#EAF6F2" stroke="none"/>
+<text x="57" y="965" font-size="22" fill="#17756D" font-weight="600" text-anchor="start">只在同 prompt、同时间条件下比较奖励</text>
+<rect x="24" y="1021" width="672" height="311" rx="16" fill="#F7FAFC" stroke="#D5E1E8"/>
+<text x="44" y="1064" font-size="26" fill="#172D3C" font-weight="700" text-anchor="start">ITG：另一个 prompt B</text>
+<text x="44" y="1099" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">另一组可选不同位置 tB；组内规则相同</text>
+<rect x="42" y="1123" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="1150" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 1</text>
+<line x1="157" y1="1142" x2="514" y2="1142" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="424" y1="1142" x2="490" y2="1142" stroke="#9A4718" stroke-width="7"/>
+<circle cx="424" cy="1142" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="490" cy="1142" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="1120" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="1150" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 1 → R1</text>
+<rect x="42" y="1198" width="96" height="38" rx="10" fill="#EDF5FA" stroke="none"/><text x="90.0" y="1225" font-size="22" fill="#246A9B" font-weight="600" text-anchor="middle">噪声 2</text>
+<line x1="157" y1="1217" x2="514" y2="1217" stroke="#246A9B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="424" y1="1217" x2="490" y2="1217" stroke="#9A4718" stroke-width="7"/>
+<circle cx="424" cy="1217" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<circle cx="490" cy="1217" r="6" fill="#FFFFFF" stroke="#9A4718" stroke-width="2"/>
+<rect x="525" y="1195" width="144" height="44" rx="10" fill="#FFFFFF" stroke="#246A9B"/>
+<text x="597" y="1225" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">视频 2 → R2</text>
+<line x1="457.0" y1="1113" x2="457.0" y2="1224" stroke="#9A4718" stroke-width="1.5" stroke-dasharray="3 7"/>
+<rect x="42" y="1268" width="628" height="45" rx="10" fill="#EAF6F2" stroke="none"/>
+<text x="57" y="1298" font-size="22" fill="#17756D" font-weight="600" text-anchor="start">各 prompt 独立选位置，保留时间覆盖</text>
+<text x="32" y="1375" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">示意：时间是去噪时间；每个状态包含整段视频。</text>
+</g></svg>

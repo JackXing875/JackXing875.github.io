@@ -33,6 +33,12 @@
   h4 { font-size: 17px; }
   a { text-decoration: underline; text-decoration-thickness: 1px; }
   img { display: block; max-width: 100%; height: auto; margin: 28px auto; border-radius: 3px; }
+  mjx-container[display="true"] {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.25em 0;
+  }
   pre { max-width: 100%; margin: 0 0 24px; padding: 18px 20px; border: 1px solid var(--global-border-color); border-radius: 4px; font-size: 12px; line-height: 1.8; overflow-x: auto; white-space: pre; }
   .highlighter-rouge, .highlight { min-width: 0; max-width: 100%; }
   .highlighter-rouge { margin: 0 0 24px; padding: 0; border: 0; background: transparent; box-shadow: none; }

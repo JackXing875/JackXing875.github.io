@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="900" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+<title id="title">完整生成，稀疏更新</title>
+<desc id="desc">上下两种方法都从初始噪声完成整条视频去噪轨迹，得到完整视频后计算奖励。多时间点方法在多个转移构造策略优化项，Flash-GRPO 每条轨迹只在一个选中的转移构造策略优化项；没有缩短完整生成轨迹。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L6,4 L1,7" fill="none" stroke="#415B6B" stroke-width="1.8"/></marker></defs>
+<g font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="720" height="900" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="32" y="53" font-size="32" fill="#172D3C" font-weight="700" text-anchor="start">完整生成，稀疏更新</text>
+<text x="32" y="91" font-size="25" fill="#415B6B" font-weight="400" text-anchor="start">one-step 指策略优化的位置</text>
+<line x1="34" y1="123" x2="72" y2="123" stroke="#246A9B" stroke-width="4"/>
+<text x="84" y="131" font-size="22" fill="#172D3C" font-weight="400" text-anchor="start">完整生成</text>
+<rect x="264" y="112" width="20" height="20" rx="5" fill="#FFF1E7" stroke="#9A4718"/>
+<text x="296" y="131" font-size="22" fill="#172D3C" font-weight="400" text-anchor="start">策略更新位置</text>
+<rect x="24" y="157" width="672" height="288" rx="16" fill="#F7FAFC" stroke="#D5E1E8"/>
+<text x="44" y="200" font-size="27" fill="#172D3C" font-weight="700" text-anchor="start">多时间点策略优化</text>
+<line x1="76" y1="267" x2="553" y2="267" stroke="#246A9B" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="76" cy="267" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<circle cx="164" cy="267" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<line x1="164" y1="282" x2="164" y2="329" stroke="#9A4718" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="152" y="329" width="24" height="24" rx="5" fill="#FFF1E7" stroke="#9A4718"/>
+<text x="164" y="384" font-size="22" fill="#9A4718" font-weight="600" text-anchor="middle">更新</text>
+<circle cx="252" cy="267" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<line x1="252" y1="282" x2="252" y2="329" stroke="#9A4718" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="240" y="329" width="24" height="24" rx="5" fill="#FFF1E7" stroke="#9A4718"/>
+<text x="252" y="384" font-size="22" fill="#9A4718" font-weight="600" text-anchor="middle">更新</text>
+<circle cx="340" cy="267" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<line x1="340" y1="282" x2="340" y2="329" stroke="#9A4718" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="328" y="329" width="24" height="24" rx="5" fill="#FFF1E7" stroke="#9A4718"/>
+<text x="340" y="384" font-size="22" fill="#9A4718" font-weight="600" text-anchor="middle">更新</text>
+<circle cx="428" cy="267" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<line x1="428" y1="282" x2="428" y2="329" stroke="#9A4718" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="416" y="329" width="24" height="24" rx="5" fill="#FFF1E7" stroke="#9A4718"/>
+<text x="428" y="384" font-size="22" fill="#9A4718" font-weight="600" text-anchor="middle">更新</text>
+<text x="76" y="240" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">噪声</text>
+<text x="293" y="240" font-size="22" fill="#415B6B" font-weight="400" text-anchor="middle">去噪轨迹</text>
+<rect x="560" y="239" width="102" height="54" rx="10" fill="#FFFFFF" stroke="#246A9B"/><path d="M604.0,250 L620.0,266.0 L604.0,282 Z" fill="#246A9B"/><text x="611.0" y="322" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">完整视频</text>
+<line x1="611" y1="330" x2="611" y2="349" stroke="#415B6B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="561" y="355" width="100" height="38" rx="10" fill="#EAF6F2" stroke="none"/><text x="611.0" y="382" font-size="22" fill="#17756D" font-weight="600" text-anchor="middle">奖励 R</text>
+<text x="44" y="419" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">多个转移分别构造策略项</text>
+<rect x="24" y="467" width="672" height="288" rx="16" fill="#F7FAFC" stroke="#D5E1E8"/>
+<text x="44" y="510" font-size="27" fill="#172D3C" font-weight="700" text-anchor="start">Flash-GRPO：每条轨迹选 1 处</text>
+<line x1="76" y1="577" x2="553" y2="577" stroke="#246A9B" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="76" cy="577" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<circle cx="164" cy="577" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<circle cx="252" cy="577" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<circle cx="340" cy="577" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<line x1="340" y1="592" x2="340" y2="639" stroke="#9A4718" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="328" y="639" width="24" height="24" rx="5" fill="#FFF1E7" stroke="#9A4718"/>
+<text x="340" y="694" font-size="22" fill="#9A4718" font-weight="600" text-anchor="middle">更新</text>
+<circle cx="428" cy="577" r="8" fill="#FFFFFF" stroke="#246A9B" stroke-width="3"/>
+<text x="76" y="550" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">噪声</text>
+<text x="293" y="550" font-size="22" fill="#415B6B" font-weight="400" text-anchor="middle">去噪轨迹</text>
+<rect x="560" y="549" width="102" height="54" rx="10" fill="#FFFFFF" stroke="#246A9B"/><path d="M604.0,560 L620.0,576.0 L604.0,592 Z" fill="#246A9B"/><text x="611.0" y="632" font-size="22" fill="#172D3C" font-weight="400" text-anchor="middle">完整视频</text>
+<line x1="611" y1="640" x2="611" y2="659" stroke="#415B6B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="561" y="665" width="100" height="38" rx="10" fill="#EAF6F2" stroke="none"/><text x="611.0" y="692" font-size="22" fill="#17756D" font-weight="600" text-anchor="middle">奖励 R</text>
+<text x="44" y="729" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">选中转移用 SDE，其余转移用 ODE</text>
+<rect x="24" y="780" width="672" height="94" rx="14" fill="#EDF5FA" stroke="none"/>
+<text x="44" y="817" font-size="24" fill="#172D3C" font-weight="600" text-anchor="start">生成仍然走完全程，视频完成后才打分。</text>
+<text x="44" y="852" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">位置与间距均为示意，不代表实际步数或耗时。</text>
+</g></svg>

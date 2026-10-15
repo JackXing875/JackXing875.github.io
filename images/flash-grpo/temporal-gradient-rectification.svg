@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1110" viewBox="0 0 720 1110" role="img" aria-labelledby="title desc">
+<title id="title">TGR：消去显式时间系数，保留样本差异</title>
+<desc id="desc">在未裁剪策略梯度的示意分解中，优势、策略比率、标准化残差和网络 Jacobian 形成样本相关项，并乘以显式时间系数 lambda(t)。TGR 用其倒数重加权后消去该系数，但样本相关项仍然变化，因此修正后的实际梯度方向与大小不保证相同。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L6,4 L1,7" fill="none" stroke="#415B6B" stroke-width="1.8"/></marker></defs>
+<g font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="720" height="1110" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="32" y="53" font-size="32" fill="#172D3C" font-weight="700" text-anchor="start">TGR：修正显式时间尺度</text>
+<text x="32" y="92" font-size="24" fill="#415B6B" font-weight="400" text-anchor="start">去掉一个乘法系数，保留样本本身的差异</text>
+<rect x="24" y="123" width="672" height="207" rx="16" fill="#F7FAFC" stroke="#D5E1E8"/>
+<text x="44" y="165" font-size="26" fill="#172D3C" font-weight="700" text-anchor="start">未裁剪策略梯度：因子拆分</text>
+<rect x="49" y="188" width="141" height="38" rx="10" fill="#FFF1E7" stroke="none"/><text x="119.5" y="215" font-size="22" fill="#9A4718" font-weight="600" text-anchor="middle">λ(t)</text>
+<text x="215" y="218" font-size="30" fill="#415B6B" font-weight="600" text-anchor="middle">×</text>
+<rect x="247" y="185" width="424" height="70" rx="12" fill="#EDF5FA" stroke="none"/>
+<text x="459" y="215" font-size="23" fill="#246A9B" font-weight="600" text-anchor="middle">优势 × 比率 × 标准化残差</text>
+<text x="459" y="244" font-size="23" fill="#246A9B" font-weight="600" text-anchor="middle">× 网络 Jacobian</text>
+<text x="45" y="298" font-size="22" fill="#415B6B" font-weight="400" text-anchor="start">λ(t)：由 SDE 转移与离散化引入的显式系数</text>
+<line x1="360" y1="341" x2="360" y2="393" stroke="#415B6B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="215" y="350" width="290" height="38" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="360" y="378" font-size="24" fill="#9A4718" font-weight="600" text-anchor="middle">策略项乘以 1 / λ(t)</text>
+<rect x="24" y="407" width="672" height="204" rx="16" fill="#EAF6F2" stroke="#C8E2DA"/>
+<text x="44" y="451" font-size="26" fill="#17756D" font-weight="700" text-anchor="start">修正后：显式 λ(t) 相消</text>
+<rect x="48" y="475" width="624" height="70" rx="12" fill="#FFFFFF" stroke="none"/>
+<text x="360" y="505" font-size="25" fill="#172D3C" font-weight="600" text-anchor="middle">优势 × 比率 × 标准化残差</text>
+<text x="360" y="535" font-size="25" fill="#172D3C" font-weight="600" text-anchor="middle">× 网络 Jacobian</text>
+<text x="44" y="581" font-size="23" fill="#415B6B" font-weight="400" text-anchor="start">这些因子依然随样本、时间与参数变化。</text>
+<rect x="24" y="638" width="672" height="288" rx="16" fill="#F7FAFC" stroke="#D5E1E8"/>
+<text x="44" y="682" font-size="26" fill="#172D3C" font-weight="700" text-anchor="start">实际梯度仍可能大小不同、方向不同</text>
+<line x1="139" y1="842" x2="209" y2="789" stroke="#17756D" stroke-width="5" marker-end="url(#arrow)"/>
+<circle cx="139" cy="842" r="5" fill="#17756D" stroke="#17756D" stroke-width="2"/>
+<text x="139" y="885" font-size="24" fill="#172D3C" font-weight="500" text-anchor="middle">样本 a</text>
+<line x1="350" y1="842" x2="388" y2="754" stroke="#17756D" stroke-width="5" marker-end="url(#arrow)"/>
+<circle cx="350" cy="842" r="5" fill="#17756D" stroke="#17756D" stroke-width="2"/>
+<text x="350" y="885" font-size="24" fill="#172D3C" font-weight="500" text-anchor="middle">样本 b</text>
+<line x1="559" y1="842" x2="506" y2="805" stroke="#17756D" stroke-width="5" marker-end="url(#arrow)"/>
+<circle cx="559" cy="842" r="5" fill="#17756D" stroke="#17756D" stroke-width="2"/>
+<text x="559" y="885" font-size="24" fill="#172D3C" font-weight="500" text-anchor="middle">样本 c</text>
+<text x="44" y="908" font-size="20" fill="#415B6B" font-weight="400" text-anchor="start">箭头仅为概念示意，不对应实验数值。</text>
+<rect x="24" y="950" width="672" height="130" rx="14" fill="#EDF5FA" stroke="none"/>
+<text x="44" y="988" font-size="25" fill="#172D3C" font-weight="600" text-anchor="start">TGR 不保证各时间点的梯度范数相同。</text>
+<text x="44" y="1025" font-size="23" fill="#415B6B" font-weight="400" text-anchor="start">图示聚焦未裁剪策略项；clip、KL 等因素</text>
+<text x="44" y="1057" font-size="23" fill="#415B6B" font-weight="400" text-anchor="start">仍可能影响实际优化中的总梯度。</text>
+</g></svg>
