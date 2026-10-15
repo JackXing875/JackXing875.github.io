@@ -1,5 +1,5 @@
 <article class="article-entry{% if include.compact %} article-entry--compact{% endif %}">
-  <time datetime="{{ include.note.date | date_to_xmlschema }}">{{ include.note.date | date: '%d %b %Y' }}</time>
+  <time datetime="{{ include.note.date | date_to_xmlschema }}">{% if include.note.display_date %}{{ include.note.display_date }}{% else %}{{ include.note.date | date: '%d %b %Y' }}{% endif %}</time>
   <div>
     <h{% if include.compact %}3{% else %}2{% endif %}><a href="{{ include.note.url | relative_url }}">{{ include.note.title }}</a></h{% if include.compact %}3{% else %}2{% endif %}>
     {% unless include.compact %}

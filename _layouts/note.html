@@ -8,7 +8,7 @@ layout: default
       <h1 id="note-title">{{ page.title }}</h1>
       <div class="reading-meta">
         {% unless page.hide_author %}<span>{{ site.author.name }}</span>{% endunless %}
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d %b %Y' }}</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.display_date %}{{ page.display_date }}{% else %}{{ page.date | date: '%d %b %Y' }}{% endif %}</time>
         {% if page.paperurl %}<a href="{{ page.paperurl | replace: 'https://jackxing875.github.io', site.baseurl | replace: 'https://JackXing875.github.io', site.baseurl }}">Download PDF <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>{% endif %}
       </div>
       {% if page.excerpt %}<div class="reading-description">{{ page.excerpt | markdownify }}</div>{% endif %}
