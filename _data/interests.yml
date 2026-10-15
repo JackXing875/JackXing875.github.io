@@ -1,8 +1,4 @@
-- title: Multimodal reasoning
-  description: Investigating how vision–language models integrate visual evidence with language across multi-step reasoning, with an emphasis on tracing visual information flow, maintaining grounding, and understanding when relevant details are retained or lost.
-- title: Efficient inference
-  description: Exploring KV cache compression and eviction, token pruning, and sparse attention to reduce inference costs, with adaptive resource allocation that preserves task-relevant information and balances reasoning quality, latency, and memory use.
-- title: Video generation
-  description: Studying diffusion, flow matching, and autoregressive approaches to video synthesis, with a focus on temporal consistency and efficient reuse of visual features and memory to support coherent generation over longer sequences.
-- title: Video Post-Training
-  description: Exploring reinforcement learning and preference alignment for video generation, with a focus on visual quality, temporal consistency, and prompt adherence under practical computational constraints.
+- title: Efficient Multimodal Reasoning
+  description: Investigating how vision–language models retain and use visual evidence during multi-step reasoning, with a focus on visual information flow and efficient inference through KV cache optimization, token pruning, and sparse attention.
+- title: Video Generation &amp; Post-Training
+  description: Exploring temporally coherent video generation through efficient memory and feature reuse, alongside post-training methods based on reinforcement learning and preference alignment to improve visual quality and prompt adherence.
