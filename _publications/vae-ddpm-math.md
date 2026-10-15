@@ -4,7 +4,7 @@ title: "VAE 与 Diffusion Model 学习笔记"
 collection: publications
 category: manuscripts
 permalink: /publication/vae-ddpm-math/
-date: 2026-10-16 00:00:00 +0800
+date: 2026-10-16 01:16:52 +0800
 display_date: "16 Oct 2026"
 excerpt: "从潜变量、变分下界与重参数化出发，完整推导 DDPM 的前向边缘、条件后验、变分目标、噪声预测与采样，再连接潜空间图像、视频生成和生成后训练。"
 ---
