@@ -4,5 +4,5 @@
   description: KV cache compression, token pruning, sparse attention, and adaptive caching.
 - title: Video generation
   description: Diffusion models, flow matching, video DiTs, and feature reuse.
-- title: Embodied intelligence
-  description: Vision–language–action models, world models, and efficient perception.
+- title: Post-training for video generation models
+  description: Exploring reinforcement learning and preference alignment for video generation, with a focus on visual quality, temporal consistency, and prompt adherence under practical computational constraints.
