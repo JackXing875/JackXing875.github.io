@@ -733,7 +733,7 @@ $$
 A_{\max}=\max_{s,a}|A^{\mathrm{old}}(s,a)|.
 $$
 
-这里总变差距离定义为 $$D_{\mathrm{TV}}(p,q)=\tfrac12\sum_a|p(a)-q(a)|$$，衡量两个离散分布在概率质量上的差别；$$\|v\|_1=\sum_s|v(s)|$$ 是绝对值之和。状态已包含时间。根据两策略逐步耦合的简单上界，第 $$t$$ 步的状态分布满足
+这里总变差距离定义为 $$D_{\mathrm{TV}}(p,q)=\tfrac12\sum_a\lvert p(a)-q(a)\rvert$$，衡量两个离散分布在概率质量上的差别；$$\lVert v\rVert_1=\sum_s\lvert v(s)\rvert$$ 是绝对值之和。状态已包含时间。根据两策略逐步耦合的简单上界，第 $$t$$ 步的状态分布满足
 
 $$
 \|d_t^\pi-d_t^{\mathrm{old}}\|_1\le 2t\alpha.
